@@ -14,6 +14,7 @@ def binaryS(el, l, left, right):
         return binaryS(el, l, m, right)
 
 
+
 def binarySearchRec(el, l):
     """
      Search an element in a list

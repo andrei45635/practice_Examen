@@ -24,7 +24,7 @@ def searchSuccOrdered(el, l):
      """
     if len(l) <= 0:
         return -1
-    if el <= 0:
+    if el <= l[0]:
         return -1
     if el > l[len(l) - 1]:
         return len(l)

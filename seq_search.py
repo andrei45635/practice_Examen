@@ -30,3 +30,7 @@ def searchSeqOrdered(el, l):
     if poz == -1:
         return len(l)
     return poz
+
+if __name__ == '__main__':
+    array = [5, 9, 1, 3, 7, 5, 6, 8, 4, 1, 2, 14,3, 6, 9, 85, 2, 7,15]
+    print(searchSeqOrdered(14, array))

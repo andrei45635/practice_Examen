@@ -25,7 +25,7 @@ def searchSeqOrdered(el, l):
         return 0
     poz = -1
     for i in range(0, len(l)):
-        if el <= l[i]:
+        if el == l[i]:
             poz = i
     if poz == -1:
         return len(l)
